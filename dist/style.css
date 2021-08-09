@@ -1,0 +1,107 @@
+body{
+    background-color: #163172;
+ }
+ div{
+     color: #163172;
+     font-size: 20px;
+ }
+ .profile-wrapper{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: url(/img/IMG_1511_ok.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ .pict-wrapper{
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+    background: url(/img/shutterstock_423324397-e1509446389401-640x360.jpg);
+    background-size: contain;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ .container{
+     display: flex;
+     flex: 10px;
+     margin: auto;
+     text-align: center;
+     background-color: #D6E4F0;
+     border-radius: 12px;
+ }
+
+ h1{
+     font-size: 40px;
+ }
+
+ #floatnavbar{
+    background-color: white;
+    display: flex;
+    margin-top: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+ }
+
+ .nav-child{
+    float: left;
+    display: block;
+    text-align: center;
+    flex: 3px;
+    border: 1px solid #1E56A0;
+ }
+
+ .nav-child :hover{
+    color: black;
+    background: #1E56A0;
+ }
+
+ ul{
+    text-align: justify;
+ }
+
+ .penutup{
+    margin-top: auto;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+
+ img{
+     width: 20px;
+     height: 20px;
+     margin: auto;
+ }
+
+ p{
+     margin-top: auto;
+     margin-bottom: auto;
+     margin-left: 50px;
+     margin-right: 50px;
+     text-align: justify;
+ }
+
+ .isi{
+     margin-top: 30px;
+     background-color:#163172 ;
+ }
+
+ .ganjil{
+    background-color:#F6F6F6 ;
+ }
+ .kekanan{
+    display: flex;
+    flex: 10px;
+    margin: auto;
+    text-align: center;
+    flex-direction: row; 
+ }
+
+.kebawah{
+    flex-direction: column;
+}
